@@ -1,0 +1,11 @@
+{
+  "name": "poxy-snippets",
+  "version": "0.1.0",
+  "description": "Poxy snippets for Atom.io.",
+  "repository": "https://github.com/paulwooddesign/poxy-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}

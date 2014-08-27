@@ -1,0 +1,367 @@
+'.text.html.php, .source.php':
+  'block':
+    'prefix': 'block'
+    'body': '
+      <?php //* Start Block / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t$1
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php //End Block */ ?>
+      \n'
+
+  # /////////////////////////////////////////////
+  # SECTION HEADINGS
+  # /////////////////////////////////////////////
+
+  'Section Head':
+    'prefix': 'block head'
+    'body': '
+      <?php //* BLOCK HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // BLOCK HEADING */ ?>
+      \n'
+
+
+  #TERA SECTION HEAD
+  'Tera Section Head':
+    'prefix': 'tera head'
+    'body': '
+      <?php //* TERA SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="tera"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // TERA SECTION HEADING */ ?>
+      \n'
+
+  #GIGA SECTION HEAD
+  'Giga Section Head':
+    'prefix': 'giga head'
+    'body': '
+      <?php //* GIGA SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="giga"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // GIGA SECTION HEADING */ ?>
+      \n'
+
+  #MEGA SECTION HEAD
+  'Mega Section Head':
+    'prefix': 'mega head'
+    'body': '
+      <?php //* MEGA SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="mega"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // MEGA SECTION HEADING */ ?>
+      \n'
+
+  #ALPHA SECTION HEAD
+  'Alpha Section Head':
+    'prefix': 'alpha head'
+    'body': '
+      <?php //* ALPHA SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="alpha"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // ALPHA SECTION HEADING */ ?>
+      \n'
+
+  #BETA SECTION HEAD
+  'Beta Section Head':
+    'prefix': 'beta head'
+    'body': '
+      <?php //* BETA SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="beta"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // BETA SECTION HEADING */ ?>
+      \n'
+
+  #GAMMA SECTION HEAD
+  'Gamma Section Head':
+    'prefix': 'gamma head'
+    'body': '
+      <?php //* GAMMA SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="gamma"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // GAMMA SECTION HEADING */ ?>
+      \n'
+
+  #DELTA SECTION HEAD
+  'Delta Section Head':
+    'prefix': 'delta head'
+    'body': '
+      <?php //* DELTA SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="delta"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // DELTA SECTION HEADING */ ?>
+      \n'
+
+  #EPSILON SECTION HEAD
+  'Epsilon Section Head':
+    'prefix': 'epsilon head'
+    'body': '
+      <?php //* EPSILON SECTION HEADING / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<h2>
+      \n\t\t\t\t<span class="epsilon"><?php the_title(); ?></span>
+      \n\t\t\t</h2>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // EPSILON SECTION HEADING */ ?>
+    \n'
+
+  # /////////////////////////////////////////////
+  # POXY SECTIONS
+  # /////////////////////////////////////////////
+
+  'POXY 4':
+    'prefix': 'poxy 4'
+    'body': '
+      <div class="POXY A_4_14A14 B_4_14B14 C_4_14C14 D_2_12D12 E_2_12E12 bg-cover">
+      \n\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n</div>
+      \n'
+
+
+  'POXY 2':
+    'prefix': 'poxy 2'
+    'body': '
+      <div class="POXY A_2_12A12 B_2_12B12 C_2_12C12 D_1_11D11 E_1_11E11 bg-cover">
+      \n\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n</div>
+      \n'
+
+
+  #POXY 2 1:1
+  'POXY 2 Block':
+    'prefix': 'poxy 2 block'
+    'body': '
+      <?php //* POXY 2 BLOCK / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<div class="POXY A_2_12A12 B_2_12B12 C_2_12C12 D_1_11D11 E_1_11E11 bg-cover">
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t</div>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // POXY 2 BLOCK */ ?>
+      \n'
+
+
+  #POXY 3 1:1
+  'POXY 3 Block':
+    'prefix': 'poxy 3 block'
+    'body': '<?php //* POXY 3 BLOCK / ?>
+    \n<section>
+    \n\t<div class="site-width">
+    \n\t\t<div class="copy-width">
+    \n\t\t\t<div class="POXY A_3_13A13 B_3_13B13 C_3_13C13 D_1_11D11 E_1_11E11 bg-cover">
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t</div>
+    \n\t\t</div>
+    \n\t</div>
+    \n</section>
+    \n<?php // POXY 3 BLOCK */ ?>
+    \n'
+
+
+  #POXY 4 1:1
+  'POXY 4 Block':
+    'prefix': 'POXY 4 BLOCK'
+    'body': '<?php //* POXY 4 Block / ?>
+    \n<section>
+    \n\t<div class="site-width">
+    \n\t\t<div class="copy-width">
+    \n\t\t\t<div class="POXY A_4_14A14 B_4_14B14 C_4_14C14 D_2_12D12 E_2_12E12 bg-cover">
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t</div>
+    \n\t\t</div>
+    \n\t</div>
+    \n</section>
+    \n<?php // POXY 4 BLOCK */ ?>
+    \n'
+
+
+  #POXY 5 1:1
+  'POXY 5 Block':
+    'prefix': 'poxy 5 block'
+    'body': '<?php //* POXY 5 BLOCK / ?>
+    \n<section>
+    \n\t<div class="site-width">
+    \n\t\t<div class="copy-width">
+    \n\t\t\t<div class="POXY A_5_15A15 B_5_15B15 C_5_15C15 D_2_12D12 E_2_12E12 bg-cover">
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+    \n\t\t\t</div>
+    \n\t\t</div>
+    \n\t</div>
+    \n</section>
+    \n<?php // Poxy 5 BLOCK */ ?>
+    \n'
+
+  #POXY 6 1:1
+  'POXY 6 Block':
+    'prefix': 'poxy 6 block'
+    'body': '<?php //* POXY 6 BLOCK / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<div class="POXY A_6_16A16 B_6_16B16 C_3_13C13 D_2_12D12 E_2_12E12 bg-cover">
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t</div>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // POXY 6 BLOCK */ ?>
+      \n'
+
+  #POXY 7 1:1
+  'POXY 7 Block':
+    'prefix': 'poxy 7 block'
+    'body': '<?php //* POXY 7 BLOCK / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<div class="POXY A_7_17A17 B_7_17B17 C_3_13C13 D_2_12D12 E_2_12E12 bg-cover">
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t</div>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // POXY 7 BLOCK */ ?>
+      \n'
+
+  #POXY 8 1:1
+  'POXY 8 Block':
+    'prefix': 'poxy 8 block'
+    'body': '<?php //* POXY 8 Block / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<div class="POXY A_8_18A18 B_8_18B18 C_4_14C14 D_2_12D12 E_2_12E12 bg-cover">
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t</div>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // POXY 8 BLOCK */ ?>
+      \n'
+
+
+
+  #POXY 9 1:1
+  'POXY 9 Block':
+    'prefix': 'poxy 9 block'
+    'body': '<?php //* POXY 9 BLOCK / ?>
+      \n<section>
+      \n\t<div class="site-width">
+      \n\t\t<div class="copy-width">
+      \n\t\t\t<div class="POXY A_9_19A19 B_9_19B19 C_3_13C13 D_2_12D12 E_2_12E12 bg-cover">
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t\t<figure <?php poxy_bgi_1x1(); ?> ></figure>
+      \n\t\t\t</div>
+      \n\t\t</div>
+      \n\t</div>
+      \n</section>
+      \n<?php // POXY 9 BLOCK */ ?>
+      \n'
