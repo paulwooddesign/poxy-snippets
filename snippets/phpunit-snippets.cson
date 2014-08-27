@@ -236,7 +236,7 @@
 
   #POXY 4 1:1
   'POXY 4 Block':
-    'prefix': 'POXY 4 BLOCK'
+    'prefix': 'poxy 4 block'
     'body': '<?php //* POXY 4 Block / ?>
     \n<section>
     \n\t<div class="site-width">
